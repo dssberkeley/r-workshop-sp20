@@ -5,26 +5,26 @@
 40 %% 6
 
 #1.2 
-x = 2 ** 4
-y = 7 
-y = x 
-x = '???' #for you to fill in! 
-x = x + 1
+x <- 2 ** 4
+y <- 7 
+y <- x 
+x <- '???' #for you to fill in! 
+x <- x + 1
 y
-y = '???' #for you to fill in!
+y <- '???' #for you to fill in!
 
 
 #PART 2 
 #2.1
 a <- c(1, 2, 3, 4)
-b = a + 5 
-b = '???' #for you to fill in!
-c = a * 6
-c = '???' #for you to fill in! 
+b <- a + 5 
+b <- '???' #for you to fill in!
+c <- a * 6
+c <- '???' #for you to fill in! 
 
 #2.2
-x = list(5, 'hi')
-y = x + 1 #does this error? 
+x <- list(5, 'hi')
+y <- x + 1 #does this error? 
 
 #2.3
 #if you don't know what a function does, feel free to look it up with '?'
@@ -52,9 +52,9 @@ names(babies)
 babies$age
 
 mean(babies$age)
-mean(babies$age, na.rm=TRUE)
-max(babies$age, na.rm=TRUE)
-min(babies$ht, na.rm=TRUE)
+mean(babies$age, na.rm = TRUE)
+max(babies$age, na.rm = TRUE)
+min(babies$ht, na.rm = TRUE)
 
 # Exercises
 babies$date
@@ -63,7 +63,7 @@ head(babies$age)
 
 
 # 3.2 Data cleaning
-babies = na.omit(babies)  # drop rows with NA
+babies <- na.omit(babies)  # drop rows with NA
 dim(babies)
 head(babies)
 rownames(babies) <- NULL  # reset the index / rownames of each row
