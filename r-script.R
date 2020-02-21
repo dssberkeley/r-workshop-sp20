@@ -39,7 +39,7 @@ floor(3.75)
 
 #PART 3 - Data Frames (Tables)
 # 3.1 Loading & Exploring Data
-read.csv("r-workshop-sp20/babies.csv")
+babies <- read.csv("r-workshop-sp20/babies.csv")
 View(babies)
 head(babies)
 summary(babies)
