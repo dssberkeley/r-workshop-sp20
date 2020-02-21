@@ -104,6 +104,7 @@ subset(babies, age == 27 & ed == "College")
 subset(babies, age <= 20 | age >= 30)
 babies[babies$sex == 1, ]
 babies[babies$sex == 1, "sex"] <- "male"
+head(babies)
 
 # Exercises
 # (Write your script here)
