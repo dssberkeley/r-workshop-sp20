@@ -8,19 +8,18 @@
 x <- 2 ** 4
 y <- 7 
 y <- x 
-x <- '???' #for you to fill in! 
+#what is the value of x? 
 x <- x + 1
 y
-y <- '???' #for you to fill in!
+#what is the value of y? 
 
 
 #PART 2 
 #2.1
 a <- c(1, 2, 3, 4)
-b <- a + 5 
-b <- '???' #for you to fill in!
+#what is the value of b? 
 c <- a * 6
-c <- '???' #for you to fill in! 
+#what is the value of c?  
 
 #2.2
 x <- list(5, 'hi')
